@@ -5,7 +5,8 @@
 
 A custom Pomodoro-inspired timer providing a user-friendly interface to set desired working and break time periods. 
 
-![hero image or gif](docs/hero.jpg)
+<img src="Images/Timer_Completed_Assembly.jpg" width="500" alt="Physical Assembly">
+<img src="CAD/CAD_Images/CAD_Assembly.PNG" width="400" alt="CAD Assembly">
 
 <!-- PROMPT: Replace with a real photo/gif of the finished hardware, or a short demo video link.
      This matters more than any paragraph of text for a hardware project. -->
@@ -42,13 +43,15 @@ I wanted to build a custom timer project, not only to use up spare electronics I
 - 5min break between sessions hard-coded into timer
 - Compact display. Perfect for desktop use
 
+(See images in folder for the examples of a pomodoro break, running pomodoro session and timer start screen)
+
 ## Repo Overview
 <!-- PROMPT: Brief map of folders, especially if there are exported PDFs/gerbers alongside
      native project files (Altium, CubeIDE, etc.) -->
 
 ```
-/CAD           - CAD files for the timer frame, LEd mount, side plates and top plate
-/Electrical    - KiCAD cchematic
+/CAD           - CAD files for the timer frame, LED mount and blanking plates
+/Electrical    - KiCAD schematic
 /Software      - Arduino Micro source code
 ```
 
